@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://sotni.ru/wp-content/uploads/2023/08/dozhd-minimalizm-2.webp');
+}
+
+
+
+.cont{
+    color: white;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    margin: 15% auto;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: rgb(78, 78, 78);
+    gap: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(141, 190, 255);
+}
+
+button,input{
+    border: none;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.585);
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+}
+
+button{
+    border-radius: 0 23% 23% 0;
+}
+
+input{
+    border-radius: 23% 0 0 23%;
+}
